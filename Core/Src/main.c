@@ -75,6 +75,7 @@ int main(void)
 				mpu9250_data.Acl_X, mpu9250_data.Acl_Y, mpu9250_data.Acl_Z);*/
 		printf("%6d %6d %6d\n",
 				mpu9250_data.Gyr_X, mpu9250_data.Gyr_Y, mpu9250_data.Gyr_Z);
+
  	}
 
 }
