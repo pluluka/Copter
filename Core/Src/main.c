@@ -70,6 +70,7 @@ int main(void)
 		//MPU9250_GetData(data);
 
 		MPU9250_GetData(&mpu9250_data);
+
 		/*
 		printf("%6d %6d %6d\n",
 				mpu9250_data.Acl_X, mpu9250_data.Acl_Y, mpu9250_data.Acl_Z);*/
